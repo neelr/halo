@@ -54,3 +54,28 @@ body {
 .weblink:hover {
 	color: var(--primary-wash);
 }
+
+.donate {
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+.donate:hover {
+	font-size: 5.5rem;
+	text-decoration-color: var(--lemonade);
+	color: var(--accent-wash);
+	font-style: italic;
+}
+
+.donateLink {
+	text-decoration: underline;
+	text-decoration-color: var(--space-purple);
+	color: white;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.donateLink:hover {
+	/*font-size: 2em;*/
+	text-decoration-color: var(--onenote);
+	color: var(--accent-wash);
+	font-weight: 900;
+}
