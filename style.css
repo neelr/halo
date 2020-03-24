@@ -14,8 +14,8 @@ body {
 .box-neu {
 	border-radius: 2rem;
 	background: linear-gradient(145deg, #2a3849, #232f3d);
-	box-shadow:  29px 29px 58px #131921, 
-				-29px -29px 58px #3b4f67;
+	box-shadow:  18px 18px 45px #e81235, 
+				-18px -18px 45px #7b0206;
 }
 .box-head {
 	font-family: "Fredoka One";
@@ -75,7 +75,7 @@ body {
 	text-decoration-color: var(--space-purple);
 	color: white;
 	font-weight: 300;
-	font-size: 1.5rem;
+	font-size: 1.9rem;
 }
 .donateLink:hover {
 	/*font-size: 2em;*/
@@ -130,9 +130,10 @@ body {
 }
 
 .hero-gray {
-	background-image: url('assets/hero.png');
+	background-image: url('assets/hero-background.svg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-position: center;
 	background-size: cover;
+	width: 100%;
 }
