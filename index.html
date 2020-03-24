@@ -8,9 +8,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="variables.css">
-	<link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
@@ -24,8 +24,8 @@
 				<h1 class="title heading">
 					Halo
 				</h1>
-				<p class="subtitle">
-					Give masks to those in need!
+				<p class="subtitle" style="font-family: Nunito; font-weight: 300; font-size: 1.5em">
+					Give masks to those in need. Give back. Change the world in your way.
 				</p>
 			</div>
 		</div>
@@ -40,12 +40,16 @@
 	</section>
 	<section class="section" style="background-color: var(--lemonade); color: white">
 		<div class="container" style="padding: 20px;">
-			<p style="font-weight: 800"> <span style="font-size: 2rem">Today, the coronavirus is affect more people than ever before.
-				Don't believe me? Go to <a class="weblink" src="https://predictcovid.com" style="text-decoration: underline var(--space-purple);">Predict Covid</a> to be convinced.</span>
-			<br>
-				<span style="font-size: 1.2rem;">One big factor in keeping safe is to have a face mask, to prevent the spread of disease, these masks prevent your bodily fluids from reaching other people.
-			<br>	
-				While many people are staying at home and practicing social distancing™, many others are unable to not show up. They may be healthcare workers, right at the frontlines protecting us from the disease, or hourly workers working at grocery stores and whatnot to make sure we can all have the resources to stay safe today.
+			<p style="font-weight: 800; font-family: 'Nunito Sans'"> <span style="font-family: Nunito; font-size: 3rem; font-weight: 200;">Today, the coronavirus is affecting more people than ever before. One big factor in keeping safe are face masks, which prevent the spread of disease. </span>
+			<br><br>
+			<span style="font-size: 1.2rem;">
+				Don't believe me? Go to <a class="weblink" src="https://predictcovid.com" style="text-decoration: underline var(--space-purple);">Predict Covid</a> to be convinced.
+				<br>
+				Today, the coronavirus is affecting more people than ever before. One big factor in keeping safe are face masks, which prevent the spread of disease. 
+				<br> 
+				While many people are staying at home and practicing social distancing™, many others are unable to stay home. They may be healthcare workers, right at the frontlines protecting us from the disease, or hourly workers working at grocery stores and whatnot to make sure we can all have the resources to stay safe today.
+				<br>
+				Research shows that face masks can reduce the chance of a disease patient from spreading the virus, as well as protect people from contracting the virus from the environment.
 			</span>
 			</p>
 		</div>
@@ -55,13 +59,53 @@
 			<article class="media">
 				<div class="media-content">
 					<div class="content">
-						<p style="color: white" class="heading donate">DONATE TODAY</p>
-						<p class="heading-2" style="color: var(--snow)	">To fund the purchase of face masks.
+						<p><a href="https://charity.gofundme.com/o/en/campaign/halo-angelhacks" style="color: white" class="heading donate">DONATE TODAY</a></p>
+						<p class="heading-2" style="color: var(--snow)">To fund the purchase of face masks.
+							<br>
+							Your donation will go to the purchase and/or production of face masks, which will end up in the hands of doctors and employees. 
 						</p>
-						<a src="https://www.buymeacoffee.com/clairewang" class="donateLink">☕️ Donate A Coffee</a>
+						<!-- <div class="container">
+							<div class="row">
+							<div class="col-lg-5 mx-auto">
+							<div id="donationAmountCard" class="card shadow checkout">
+							<div class="card-header text-uppercase text-center semi-bold">Join <img class="icon heart" src="assets/icon-heart.svg"></div>
+							<div class="card-body pb-2">
+							<form>
+								<p class="text-center text-uppercase">
+								<span class="dollar-plants-tree">$1 plants a tree</span>
+								<img class="dots mt-2" src="images/dots.svg">
+								</p>
+								<div class="row">
+								<div class="col-4 px-1 mb-2">
+								<div class="donation-amount-label" data-trees="5">5<br>trees</div>
+								</div>
+								<div class="col-4 px-1 mb-2">
+								<div class="donation-amount-label active" data-trees="20">20<br>trees</div>
+								</div>
+								<div class="col-4 px-1 mb-2">
+								<div class="donation-amount-label" data-trees="50">50<br>trees</div>
+								</div>
+								</div>
+								<div class="row align-items-center">
+								<div class="col-4 px-1 mb-2">
+								<div class="donation-amount-label" data-trees="100">100<br>trees</div>
+								</div>
+								<div class="col-8 px-1 mb-2">
+								<input id="otherTreeQuantity" data-trees="" type="text" maxlength="6" class="form-control py-3 other-amount" placeholder="Other amount" />
+								</div>
+								</div>
+								<div id="invalidAmountMessage" class="invalid-msg d-none">Please select or enter a valid amount</div>
+								<button id="nextDonationAmountCard" type="submit" class="btn btn-secondary float-right mt-3">Next</button>
+							</form>
+							</div>
+							</div> -->
+						<a href="https://www.buymeacoffee.com/clairewang" class="donateLink">☕️ Donate A Coffee</a>
 						<br>
-						<a class="donateLink">🙏 Be a Patron</a>
-						
+						<a class="donateLink">🙏 Be a Patreon</a>
+						<br>
+						<a class="donateLink">👫 Make a pal, donate!</a>
+						<br>
+
 					</div>
 				</div>
 			</article>
@@ -69,16 +113,26 @@
 	</section>
 	<section class="section" style="margin-left: 20px; margin-right: 20px;">
 		<div class="columns">
-			<div class="column column-cube is-one-third" style="background-color: var(--lemonade)">
-				<span class="column-title">Healthcare Workers</span>
+			<div class="column column-cube is-one-third" style="background-color: var(--steel)">
+				<span class="column-title">According to the <a class="weblink" href="https://www.theguardian.com/world/2020/mar/23/can-a-face-mask-protect-me-from-coronavirus-covid-19-myths-busted">Guardian</a>...</span>
 				<br><br>
-				<span>At the biggest risk today, healthcare workers are in severe need of face masks to prevent the spread of the coronavirus.</span>
+				<span style="font-size: 1.3rem;">"A mask cuts the chance of the disease being passed on... wearing a mask can also protect others. <br> So masks are crucial for <span class="bold-text">health and social care workers</span> looking after patients and are also recommended for family members who need to care for someone who is ill – ideally both the patient and carer should have a mask."</span>
 			</div>
 			<div class="column column-cube" style="background-color: var(--space-purple)">
-				Second column
+				<span class="column-title">Mask Production</span>
+				<br><br>
+				<span style="font-size: 1.3rem;">Your money will go to companies and factories producing face masks, which we will then reroute to hospitals, businesses, and stores that have employees that need face masks to stay healthy and safe.<br><br><span class="subtitle" style="font-family: 'Fredoka One'; color: white; font-size: 1.5rem;">Such people include:</span></span>
+				<ul class="custList">
+					<li>Healthcare Workers</li>
+					<li>Grocery Store employees</li>
+					<li>Mail Delivery Service employees</li>
+				</ul>
 			</div>
-			<div class="column column-cube" style="background-color: var(--accent)">
-				Third column
+			<!-- </div> -->
+			<div class="column column-cube" style="background-color: var(--onenote)">
+				<span class="column-title">Hospitals are now running out...</span>
+				<br><br>
+				<span style="font-size: 1.3rem;">Hospitals are “days away” from reaching the end of their stores... hospitals are pleading with outside industries, including construction companies, dentists and veterinarians, to donate any they may have on-hand. (<a class="weblink" href="https://nypost.com/2020/03/20/doctors-are-now-running-out-of-face-masks-heres-how-to-make-your-own/">Source.</a>) <span class="bold-text">health and social care workers</span> looking after patients and are also recommended for family members who need to care for someone who is ill – ideally both the patient and carer should have a mask."</span>
 			</div>
 		</div>
 	</section>
@@ -96,8 +150,8 @@
 	</section>
 	<section class="footer is-dark" style="background-color: var(--steel)">
 		<div class="content has-text-centered">
-				<p style="font-size: 1.1rem; color: var(--snow)">Halo by Claire Wang. Find me at: </p>
-				<button class="block">Hello, World!</button>
+				<p style="font-size: 1.1rem; color: var(--snow)">Halo by Claire Wang, AngelHacks (<a href="https://angelhacks.org" class ="weblink">angelhacks.org</a>). Find me at: <a href="https://claire.build" class ="weblink">angelhacks.org</a></p>
+				
 		</div>
 	</section>
 </body>

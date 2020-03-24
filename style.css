@@ -38,7 +38,7 @@ body {
 	font-size: 3rem;
 }
 .column-cube:hover {
-	box-shadow: 5px 5px black;
+	box-shadow: 8px 8px black;
 }
 .centerImage {
 	display: block;
@@ -78,4 +78,38 @@ body {
 	text-decoration-color: var(--onenote);
 	color: var(--accent-wash);
 	font-weight: 900;
+}
+
+.bold-text {
+	font-weight: 900;
+}
+
+.custList {
+	list-style-type: circle;
+	/* margin-left: 1rem; */
+	padding-left: 1.5rem;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	background: var(--hyacinth);
+	
+}
+
+.card{
+	border-radius:.5rem;
+	border:none;
+}
+.card-header:first-child{
+	border-radius:calc(.5rem - 1px) calc(.5rem - 1px) 0 0;
+}
+.card-header{
+	font-size:.6875rem;color:#273654;background-color:#f6f6f4;padding:1rem 1.25rem .8rem;
+	border-bottom: 1px solid #eee;
+}
+.card-footer{
+	background-color:#f6f6f4;
+	border-top:1px solid #eee;
+}
+.card-footer:last-child{
+	border-radius:0 0 calc(.5rem - 1px) calc(.5rem - 1px);
 }
